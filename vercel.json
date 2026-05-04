@@ -3,9 +3,9 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
-    {
-      "source": "/((?!api|billing|logistics).*)",
-      "destination": "/index.html"
-    }
+    { "source": "/api/(.*)",   "destination": "/index.html" },
+    { "source": "/billing/(.*)",  "destination": "https://nalvel-billing.vercel.app/billing/$1" },
+    { "source": "/logistics/(.*)", "destination": "https://nalvel-logistics-services.vercel.app/logistics/$1" },
+    { "source": "/(.*)",      "destination": "/index.html" }
   ]
 }
