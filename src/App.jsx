@@ -38,11 +38,7 @@ export default function App() {
   return (
     <div className="page">
       <header className="brand">
-        <div className="brand-logo">
-          <NalvelLogoIcon />
-        </div>
-        <span className="brand-name">Nalvel</span>
-        <span className="brand-tagline">Unified Operations Portal</span>
+       <img className="brand-logo" src="/Logo.svg" alt="Nalvel Logo" />
       </header>
 
       <main>

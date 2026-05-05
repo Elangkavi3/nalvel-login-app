@@ -7,8 +7,8 @@
 
 :root {
   --font:        'Inter', system-ui, sans-serif;
-  --bg-from:     #0a0f1e;
-  --bg-to:       #0d1b3e;
+  --bg-from:     #6FBFA3;
+  --bg-to:       #F5F5F5;
   --card-bg:     rgba(255, 255, 255, 0.04);
   --card-border: rgba(255, 255, 255, 0.10);
   --accent:      #4f8cff;
@@ -130,13 +130,13 @@ html, body, #root {
 }
 
 .brand-logo {
-  width: 56px; height: 56px;
-  background: linear-gradient(135deg, #4f8cff 0%, #7c3aed 100%);
+  width: 320px; height: 110px;
+  /* background: linear-gradient(135deg, #07f1f1 0%, #186d59 100%); */
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 32px rgba(79,140,255,0.4);
+  /* box-shadow: 0 0 32px rgba(79,140,255,0.4); */
 }
 
 .brand-logo svg {
@@ -356,7 +356,7 @@ html, body, #root {
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
-  background: linear-gradient(135deg, #4f8cff 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #ffb64f 0%, #bd2a2a 100%);
   color: #fff;
   letter-spacing: 0.3px;
   transition: all 0.2s ease;
