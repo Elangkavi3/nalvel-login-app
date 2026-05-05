@@ -27,7 +27,7 @@ export default function App() {
       }
 
       // ✅ backend controls redirect
-      window.location.href = data.redirectUrl;
+      window.location.href = `${data.redirectUrl}?token=${data.token}`;
 
     } catch (err) {
       console.error(err);
